@@ -59,4 +59,4 @@ jobs:
           # Password or personal access token used to log against the Docker registry
           password: ${{ secrets.DOCKERHUB_PASS }} # optional
           # Log out from the Docker registry at the end of a job
-          logout: # optional, default is true
+          logout: true # optional, default is true
